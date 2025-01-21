@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="ig.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="gallery">
+        <img src="royal_enfield.jpeg" alt="Royal Enfield" class="active" />
+<img src="ktm_duke.jpeg" alt="KTM Duke" />
+<img src="yamaha_r15.jpeg" alt="Yamaha R15" />
+<img src="bajaj_pulsar.jpeg" alt="Bajaj Pulsar" />
+<img src="hero_xtreme.jpeg" alt="Hero Xtreme" />
+      </div>
+      <button class="prev-btn">&#60;</button>
+      <button class="next-btn">&#62;</button>
+    </div>
+    <div class="thumbnails">
+      <div>
+        <img src="royal_enfield.jpeg" alt="Royal Enfield" onclick="showImage(0)" />
+        <img src="ktm_duke.jpeg" alt="KTM Duke" onclick="showImage(1)" />
+        <img src="yamaha_r15.jpeg" alt="Yamaha R15" onclick="showImage(2)" />
+        <img src="bajaj_pulsar.jpeg" alt="Bajaj Pulsar" onclick="showImage(3)" />
+        <img src="hero_xtreme.jpeg" alt="Hero Xtreme" onclick="showImage(4)" />
+      </div>      
+    <script src="ig.js"></script>
+  </body>
+</html>
